@@ -46,6 +46,8 @@
 <!ENTITY closeButtons.all.label "show on all tabs">
 <!ENTITY closeButtons.none.label "don't show any close buttons">
 <!ENTITY closeButtons.end.label "show a single close button at the end of the tab bar">
+<!ENTITY showSearchBar.label "Display the tab search bar">
+<!ENTITY showSearchBar.accesskey "D">
 
 <!ENTITY appearance.caption "Appearance">
 <!ENTITY highlightUnreadTabs.label "Highlight unread tabs in yellow">

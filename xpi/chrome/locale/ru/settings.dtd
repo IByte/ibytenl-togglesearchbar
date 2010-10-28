@@ -46,6 +46,8 @@
 <!ENTITY closeButtons.all.label "отображаются на всех вкладках">
 <!ENTITY closeButtons.none.label "не отображаются вообще">
 <!ENTITY closeButtons.end.label "отображается только одна кнопка в конце панели вкладок">
+<!ENTITY showSearchBar.label "Отображать поиск панели вкладок">
+<!ENTITY showSearchBar.accesskey "О">
 
 <!ENTITY appearance.caption "Внешний вид">
 <!ENTITY highlightUnreadTabs.label "Подсвечивать непрочитанные вкладки жёлтым">

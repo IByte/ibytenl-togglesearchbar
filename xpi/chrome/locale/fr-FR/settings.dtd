@@ -46,6 +46,8 @@
 <!ENTITY closeButtons.all.label "afficher sur tous les onglets">
 <!ENTITY closeButtons.none.label "n'afficher aucun bouton de fermeture">
 <!ENTITY closeButtons.end.label "n'afficher qu'un unique bouton de fermeture à la fin de la barre d'onglets">
+<!ENTITY showSearchBar.label "La barre de recherche d'onglets est à afficher">
+<!ENTITY showSearchBar.accesskey "A">
 
 <!ENTITY appearance.caption "Apparance">
 <!ENTITY highlightUnreadTabs.label "Surligner les onglets non lus en jaune">

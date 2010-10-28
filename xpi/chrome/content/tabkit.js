@@ -5316,6 +5316,7 @@ var tabkit = new function _tabkit() { // Primarily just a 'namespace' to hide ou
 
     /// Initialisation:
     this.initSearchBar = function initSearchBar(event) {
+    	  
         var strings = document.getElementById("bundle_tabkit");
         
         var vbox = document.createElementNS(XUL_NS, "vbox");
@@ -5340,8 +5341,15 @@ var tabkit = new function _tabkit() { // Primarily just a 'namespace' to hide ou
         checkbox.setAttribute("oncommand", "tabkit.filterTabs(document.getElementById('tabkit-filtertabs-query').value)");
         checkbox.setAttribute("collapsed", "true");
         vbox.appendChild(checkbox);
+
+        tk.toggleSearchBar();
+        tk.addPrefListener("showSearchBar", tk.toggleSearchBar);
     };
     this.initListeners.push(this.initSearchBar);
+    
+    this.toggleSearchBar = function toggleSearchBar() {
+        document.getElementById('tabkit-filtertabs-box').setAttribute("collapsed", !_prefs.getBoolPref("showSearchBar"));
+    }
     
     this.filterTabs = function filterTabs(query) {
         // Expand collapsed groups during search

@@ -46,6 +46,8 @@
 <!ENTITY closeButtons.all.label "auf allen Tabs anzeigen">
 <!ENTITY closeButtons.none.label "gar nicht anzeigen">
 <!ENTITY closeButtons.end.label "einen einzigen Knopf am rechten Rand der Tab-Leiste anzeigen">
+<!ENTITY showSearchBar.label "Tabsucheleiste anzeigen">
+<!ENTITY showSearchBar.accesskey "C">
 
 <!ENTITY appearance.caption "Darstellung">
 <!ENTITY highlightUnreadTabs.label "Ungelesene Tabs gelb markieren">

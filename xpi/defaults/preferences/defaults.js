@@ -17,6 +17,7 @@ pref("extensions.tabkit.indentedTree", true);
 //--- Tabs ---
 //pref("browser.tabs.tabMinWidth", 100);
 //pref("browser.tabs.closeButtons", 1); // 0: Active tab only, 1: All tabs, 2: None, 3: Button at end of tab strip
+pref("extensions.tabkit.showSearchBar", true);
 
 //--- Appearance ---
 pref("extensions.tabkit.highlightUnreadTabs", true);

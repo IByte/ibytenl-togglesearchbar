@@ -46,6 +46,8 @@
 <!ENTITY closeButtons.all.label "顯示在所有分頁上">
 <!ENTITY closeButtons.none.label "不顯示任何的關閉按鈕">
 <!ENTITY closeButtons.end.label "只在分頁工具列最後顯示單一個關閉按鈕">
+<!ENTITY showSearchBar.label "Display the tab search bar">
+<!ENTITY showSearchBar.accesskey "D">
 
 <!ENTITY appearance.caption "外觀">
 <!ENTITY highlightUnreadTabs.label "以高亮度顯示未閱讀的分頁">

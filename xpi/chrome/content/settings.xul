@@ -79,6 +79,7 @@
 		<preferences>
 			<preference id="tabminwidth-pref" name="browser.tabs.tabMinWidth" type="int"/>
 			<preference id="closebuttons-pref" name="browser.tabs.closeButtons" type="int"/>
+			<preference id="showsearchbar-pref" name="extensions.tabkit.showSearchBar" type="bool"/>
 			
 			<preference id="highlightunreadtabs-pref" name="extensions.tabkit.highlightUnreadTabs" type="bool"/>
 			<preference id="emphasizecurrenttab-pref" name="extensions.tabkit.emphasizeCurrentTab" type="bool"/>
@@ -109,6 +110,8 @@
 				</menupopup>
 				</menulist>
 			</hbox>
+			<checkbox id="showsearchbar" label="&showSearchBar.label;"
+					accesskey="&showSearchBar.accesskey;" preference="showsearchbar-pref"/>
 		</groupbox>
 		
 		<groupbox><caption label="&appearance.caption;"/>

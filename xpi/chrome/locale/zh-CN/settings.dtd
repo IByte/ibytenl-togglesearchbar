@@ -46,6 +46,8 @@
 <!ENTITY closeButtons.all.label "显示在所有标签上">
 <!ENTITY closeButtons.none.label "所有都不显示">
 <!ENTITY closeButtons.end.label "只在标签条末端显示一个单独的关闭按钮">
+<!ENTITY showSearchBar.label "Display the tab search bar">
+<!ENTITY showSearchBar.accesskey "D">
 
 <!ENTITY appearance.caption "外观">
 <!ENTITY highlightUnreadTabs.label "用黄色高亮显示未读标签">
